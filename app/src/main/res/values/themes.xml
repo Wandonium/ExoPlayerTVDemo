@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="Theme.ExoPlayerDemo" parent="@style/Theme.Leanback" />
+    <style name="Theme.ExoPlayerDemo.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.ExoPlayerDemo.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.ExoPlayerDemo.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
