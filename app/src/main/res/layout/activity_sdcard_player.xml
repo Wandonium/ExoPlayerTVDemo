@@ -9,21 +9,20 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_marginLeft="1081dp"
+        android:layout_marginLeft="1003dp"
         android:src="@drawable/vert1" />
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginTop="600dp"
-        android:layout_marginLeft="0dp"
+        android:layout_width="960dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="495dp"
+        android:layout_marginLeft="63dp"
         android:src="@drawable/horiz1"/>
 
     <com.google.android.exoplayer2.ui.StyledPlayerView
         android:id="@+id/player_view"
-        android:layout_width="1090dp"
-        android:layout_height="605dp"
-        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:show_buffering="when_playing" />
 
 </RelativeLayout>
